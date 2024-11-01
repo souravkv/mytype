@@ -22,7 +22,7 @@ To set up **MyType** locally, follow these steps:
 ### Prerequisites
 
 - **Node.js** (v14 or higher recommended)
-- **pnpm** (or use `npm` or `yarn`)
+- **npm**
 
 ### Installation
 
