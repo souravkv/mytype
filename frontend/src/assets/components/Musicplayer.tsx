@@ -24,7 +24,7 @@ function Musicplayer() {
   return (
     <div>
         <audio ref={audioRef} src={bluedream} />
-        {musicicon?<FaHeadphones size={25} onClick={()=>{setMusicicon(!musicicon) ;handleplay() ;} } />:<TbHeadphonesOff onClick={()=>{setMusicicon(!musicicon);handlepause();console.log("paused")}}   size={25}/>}
+        {musicicon?<TbHeadphonesOff onClick={()=>{setMusicicon(!musicicon);handleplay();}}   size={25}/>:<FaHeadphones size={25} onClick={()=>{setMusicicon(!musicicon) ;handlepause() ;} } />}
     </div>
   )
 }
