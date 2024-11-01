@@ -1,5 +1,7 @@
 # MyType
 
+![MyType Screenshot](assets/homepage.png)
+
 Welcome to **MyType** – a typing practice application built with **React**, **Vite**, and **Tailwind CSS**. MyType is designed to improve your typing speed and accuracy with real-time performance tracking and a clean, responsive interface.
 
 ## Features
